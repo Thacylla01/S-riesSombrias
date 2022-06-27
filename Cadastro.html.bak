@@ -1,0 +1,56 @@
+<html>
+<meta charset="utf-8">
+<head>
+<title>Cadastro | Séries Sombrias</title>
+<body>
+ <style type="text/css">
+ body{
+ font-family: Georgia, "Times New Roman",
+             Times, serif;
+			 color: lightsalmon;
+		     background-image: url("palco.jpg");
+	         background-repeat: repet-x}
+			 h1{
+			 font-family: Helvetica, Geneva, Arial,
+			 SunSans-Regular, sans-serif}
+</style>
+</head>
+<TABLE BORDER=1 BGCOLOR="firebrick" width="100%">
+<TH><font color="maroon">Cadastro</font></TH>
+</TABLE>
+
+<FORM NAME="form_conselho" METHOD="POST">
+<center>
+<form name=cadastro>
+<table width="100%" border=l cellpadding=4 height="280" color="red">
+<table width=425 border=l cellpadding=4 height="280">
+<tr><td colspan=2 height="13"><center>
+<p> <font face="Arial Black">Dados</font></p>
+</center></td></tr>
+
+<tr>
+<td width="15%"><font size="3" face="arial">Nome e Sobrenome</font></td>
+<td><input type="text" name="nome" size="30" placeholder="        Escreva seu nome nessa área"></td>
+</tr>
+<tr>
+<td width="15%"><font size="3" face="arial">Número de Telefone</font></td>
+<td><input type="text" name="numero" size="10" placeholder="+** (**) ****-****"></td>
+</tr>
+<tr>
+<td width="15%"><font size="3" face="arial">E-Mail</font></td>
+<td><input type="text" name="email" size="30" placeholder="              Cadastro@gmail.com"></td>
+</tr>
+<td width="15%"><font size="3" face="arial">Data de Nascimento</font></td>
+<td><input type="text" name="email" size="3" placeholder="  _/_/_"></td>
+</tr>
+<tr>
+<TABLE BORDER=1 BGCOLOR="firebrick" width="30%"  >
+<td width="15%" align="center"><font size="3" face="arial"><a href="Login.html">❂ Login ❂</a><BR></font></td>
+
+</tr>
+
+</table>
+</FORM>
+<script src="Script.js"></script>
+</body>
+</html>
