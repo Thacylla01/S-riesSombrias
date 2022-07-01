@@ -16,7 +16,7 @@ margin-right: auto;
 }
 
 #topo {
-	width: 1422;
+	width: 1305;
 	height: 100;
 	background-color: MediumPurple;
 	text-align: center;
@@ -25,10 +25,11 @@ margin-right: auto;
 }
 
 #menu {
+width: 200;
+height: 2280;
 background-color: Black;
 float: left;
-
-
+z-index: 19999;
 }
 
 #conteudo {
@@ -37,7 +38,7 @@ background-color: #EDD7FA;
 
 }
 #rodape {
-	width: 1422;
+	width: 1305;
 	height: 50;
 	background-color: grey;
 	clear: both;
