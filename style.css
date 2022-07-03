@@ -26,9 +26,10 @@ margin-right: auto;
 
 #menu {
 width: 200;
-height: 4600;
+height: 2470;
 background-color: Black;
 float: left;
+z-index: 19999;
 }
 
 #conteudo {
@@ -93,3 +94,6 @@ a:active {
   color: white;
 }
 
+.rolagem {
+	box-shadow: 2px , 2px;
+	
